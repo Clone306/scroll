@@ -1,0 +1,454 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+body {
+    height: 1000vh;
+    transition: all 1s ;
+    background-color: #6F1AB6;
+    /* z-index: -1; */
+    /* position: relative; */
+}
+.screen
+{
+    background-color: white;
+}
+.box1
+{
+/* position: absolute; */
+    /* z-index: 10; */
+    left: 0;
+    right: 0;
+    bottom: 0;    
+    color: white;
+
+    /* background: linear-gradient(); */
+    /* background-color: #6c33a3; */
+/* background-image: linear-gradient(316deg, #6c33a3 0%, #8241b8 74%); */
+padding: 5rem 50px ;
+/* padding: 0 50px; */
+/* height: 100vh; */
+
+}
+.banner
+{
+    width: 10%;
+    background-color: rgb(47, 35, 35);
+    top: 550px;
+    /* left: 10px; */
+    /* z-index: 11; */
+    position: absolute;
+    border-radius: 20px;
+    /* border: 2px solid  #6c33a3; */
+}
+.card-img2
+{
+    display: flex;
+    justify-content: space-between;
+}
+.box2
+{
+    /* position: absolute; */
+    /* z-index: 10; */
+    left: 0;
+    right: 0;
+    bottom: 0;    
+    background-color: #6e72fc;
+    background-image: linear-gradient(315deg, #6e72fc 0%, #ad1deb 74%);
+    padding: 5rem 50px ;
+
+    /* top: 100px; */
+    color: white;
+}
+.box3
+{
+    left: 0;
+    right: 0;
+        
+    /* background-color: #130f40; */
+    padding: 5rem 50px ;
+    color: white;
+/* position: absolute; */
+
+}
+img
+{
+    position: absolute;
+    transition: all 0.5s ease-in;   
+}
+.div-1
+{
+    right:0;
+    width: 60%;
+    height: 100%;
+    transition: all 1s ;
+ 
+    position: fixed;
+    background-color: aliceblue;
+   
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-2
+{
+   /* background-color: aqua; */
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.div-3
+{
+    /* background-color: goldenrod; */
+    width: 100vw;
+    height: 100vh;
+}
+.div-2 h1
+{
+    display: block;
+    /* position: fixed; */
+    
+
+}
+.pn
+{
+    position: fixed;
+    left: 450px;
+    top: 100px;
+    z-index: 90;
+    transition: all 1s ;
+    background-color: #6F1AB6;
+    border-radius: 100%;
+}
+.img1
+{
+    right: 80px;
+  
+    translate: 0;
+}
+.img2
+{
+    left: 100px;
+    translate: 0 ;
+}
+.img3
+{
+    right: 0;
+    top: 0;
+    translate: 0 -1000px;
+}
+.img4
+{
+    bottom: 0;
+    left: 180px;
+    translate: 0 1000px;
+}
+.img5
+{
+    top: 0;
+    left: 0;
+    translate: -1000px 0;
+}
+.img6
+{
+    bottom: 0;
+    left: 200px;
+    translate: 0 1000px;
+}
+.img7
+{
+    bottom: -80px;
+    left: 200px;
+    translate: 0 1000px;
+}
+.img8
+{
+    left:  400px;
+    bottom: -150px;
+    translate: 0 1000px;
+}
+.img9
+{
+    translate: 1000px 0;
+    right: 0;
+}
+.img10
+{
+    translate: 0 -1000px;
+    top:  -100px ;
+    right: 250px;
+}
+.img11
+{
+    top: -100px;
+    translate: 0 -1000px;
+
+    left: 150px;
+}
+.img12
+{
+    translate: 0 1000px;
+}
+.img13
+{
+  left: 200px;
+  bottom: 50px;
+  translate: 0 1000px;
+
+}
+.img14
+{
+    right: 50px;
+    top: -100px;
+    translate: 0 -1000px;
+
+}
+.img15
+{
+    bottom: 0;
+    translate: 0 1000px;
+}
+.info 
+{
+    color: white;
+    position: fixed;
+    top: 200px;
+    left: 300px;
+    z-index: 100;
+    transition: opacity 0.1s ease-out;
+    overflow: hidden;
+    opacity: 0;
+}
+.info h1::-webkit-scrollbar,.about h1::-webkit-scrollbar
+{
+    display: none;
+}
+
+.about
+{
+    opacity: 0;
+    transition: opacity 1s;
+    color: white;
+    position: fixed;
+    bottom: 100px;
+    left: 50px;
+    z-index: 100;
+    transition: opacity 0.1s ease-out;
+    overflow-y: hidden;
+
+}
+.inf0,.a0
+{
+    opacity: 1;
+}
+.in2
+{
+    left: 450px;
+    top: 180px;
+}
+.in5
+{
+    font-size: 2rem;
+    left: 500px;
+    top: 180px;
+}
+.in6
+{
+    left: 500px;
+    top: 180px;
+}
+/* .transrg::before
+{
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%; */
+  /* height: 100%; */
+  /* background-color: yellow;  */
+   /* stroke: #6c33a3;
+   z-index: 91;
+} */
+.transrgwht
+{transition: all 0.5s;
+
+    /* stroke-dasharray: 680,1000; */
+    /* stroke-dashoffset: 100; */
+}
+.dotsst
+{
+    fill: white;
+}
+.dotsfill1
+{
+    fill:rgb(0, 146, 255);
+}
+.sect
+{
+    width: 100%;
+ height: 100vh;
+ display: none;
+ /* overflow-y: hidden; */
+ /* position: relative; */
+ z-index: 100;
+ color: white;
+}
+/* .pic1
+{
+    position: absolute;
+    z-index: 1;
+}
+.pic2
+{
+    position: absolute;
+    z-index: 1;
+} */
+.cover1,.cover2,.cover3,.cover4,.cover5,.cover6,.cover7
+{
+    background-color: #6c33a3;
+    /* position:fixed; */
+    padding: 3rem 1rem;
+    bottom: 0;
+    top: 300px;
+    right: 0;
+    left: 0;
+    height: 100%;
+    z-index: 100;
+}
+.cover2
+{
+    background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+padding: 7srem 1rem;
+
+}
+.cover3{
+    padding: 5rem 1rem;
+    background-color: #070A52;
+    
+}
+.cover4{
+    background-color: #394867;
+}
+.cover5
+{
+    /* padding: 6rem 1rem; */
+    background-color: #2a2a72;
+background-image: linear-gradient(315deg, #4B56D2 0%, #4B56D2 74%);
+    
+}
+.cover6
+{
+    padding: 5rem 1rem;
+    /* background-image: url("interior.jpg"); */
+    background-color: #070A52;
+
+    /* height: 100vh; */
+}
+.cover7
+{
+    background-color: #1F8A70;
+}
+h1::-webkit-scrollbar
+{
+    display: none;
+}
+.pic1,.pic2
+{
+    width: 40%;
+    /* position: absolute; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+.pic3,.pic4
+{
+    width: 35%;
+    position: static;
+    /* position: absolute; */
+}
+.pic5
+{
+    width: 40%;
+    position: static;
+}
+.pic6
+{
+    width: 30%;
+    position: static;
+}
+.imgdiv
+{
+    background-color: #1D267D;
+}
+.imgdiv2
+{
+    /* background: #537188; */
+    background-color: #1D267D;
+}
+.imgdiv3
+{
+    background-color: #19A7CE;
+}
+.imgdiv4
+{
+    background-image: url("interior.jpg");
+}
+.imgdiv5
+{
+    background-color: #03C988;
+}
+.pic7
+{
+    width: 50%;
+    position: static;
+}
+.pic8
+{
+    width: 43%;
+    position: static;
+}
+.pic9,.pic10,.pic11
+{
+    width: 35%;
+    position: static;
+}
+.pic11
+{
+    position: relative;
+    bottom: 100px;
+}
+.pic10
+{
+    position: absolute;
+    top:10px;
+right: -10px;
+    /* z-index: ; */
+}
+.pic12
+{
+    width: 85%;
+    position: static;
+}
+.pic13
+{
+    width: 80%;
+    position: static;
+}
+.carousel-item
+{
+    height: 100vh;
+    overflow-y: hidden;
+}
+/* .carousel, .carousel-inner, .carousel-item {
+    height:100%;
+    max-height:600px;
+ } */
+
